@@ -1,4 +1,4 @@
-# Generating Tabular Synthetic Data with CTGAN(Conditional Tabular Gan)
+# Generating Tabular Synthetic Data with CTGAN(Conditional Tabular GAN)
 This repository contains the code for replicating the work presented in the paper "Modeling Tabular Data using Conditional GAN." 
 
 Please note that while the original implementation in the paper uses PyTorch, this replication project utilizes Keras and TensorFlow for the implementation.
