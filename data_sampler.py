@@ -1,4 +1,5 @@
-#The same as https://github.com/sdv-dev/CTGAN/blob/master/ctgan/data_sampler.py with a correction
+#The same as https://github.com/sdv-dev/CTGAN/blob/master/ctgan/data_sampler.py 
+#with a correction
 
 
 import numpy as np
