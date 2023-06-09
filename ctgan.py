@@ -63,25 +63,19 @@ class DiscriminatorLayer(tf.keras.layers.Layer):
 
 class CTGAN(object):
     """Conditional Table GAN Synthesizer.
-    This is the core class of the CTGAN project, where the different components
-    are orchestrated together.
-    For more details about the process, please check the [Modeling Tabular data using
-    Conditional GAN](https://arxiv.org/abs/1907.00503) paper.
-    Args:
-        embedding_dim (int):
-            Size of the random sample passed to the Generator. Defaults to 128.
-        generator_dim (tuple or list of ints):
-            Size of the output samples for each one of the Residuals. A Residual Layer
-            will be created for each one of the values provided. Defaults to (256, 256).
-        discriminator_dim (tuple or list of ints):
-            Size of the output samples for each one of the Discriminator Layers. A Linear Layer
-            will be created for each one of the values provided. Defaults to (256, 256).
-        
-        pac (int):
-            Number of samples to group together when applying the discriminator.
-            Defaults to 10.
-        
-    """
+      Arguments:
+        -embedding_dim (int):
+            Specifies the dimension of the random sample used as input for the Generator. The default value is 128.  
+        - generator_dim (tuple or list of ints):
+            Determines the size of the  FC layer for each Residual Layer in the Generator. 
+            A separate Residual Layer is created for each specified value. The default values are (256, 256).
+    
+        - discriminator_dim (tuple or list of ints):
+              Specifies the size of the FC layer for each Discriminator Layer. 
+              A Linear Layer is created for each provided value. The default values are (256, 256).
+    
+    - pac (int):
+        Sets the number of samples to be grouped together when applying the discriminator. The default value is 10."""
 
     def __init__(self, embedding_dim=128, generator_dim=(256, 256), discriminator_dim=(256, 256), 
                   pac=10):
