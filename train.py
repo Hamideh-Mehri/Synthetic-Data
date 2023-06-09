@@ -1,5 +1,5 @@
 # Based on https://github.com/sdv-dev/CTGAN/blob/master/ctgan/synthesizers/ctgan.py
-# the comments are exactly the same as https://github.com/sdv-dev/CTGAN/blob/master/ctgan/synthesizers/ctgan.py
+# the comments are borrowed from https://github.com/sdv-dev/CTGAN/blob/master/ctgan/synthesizers/ctgan.py
 
 import numpy as np
 import tensorflow as tf
