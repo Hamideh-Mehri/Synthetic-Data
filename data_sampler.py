@@ -1,5 +1,5 @@
 #The same as https://github.com/sdv-dev/CTGAN/blob/master/ctgan/data_sampler.py 
-#with a correction
+#with a slight modification
 
 
 import numpy as np
