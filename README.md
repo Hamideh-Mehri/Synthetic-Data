@@ -18,3 +18,9 @@ During the training of the discriminator, the conditional vector is shuffled(C2)
 When training the generator, the conditional vector is sampled based on a shuffle of the transaction sequence. Then, the conditional vector is shuffled again and concatenated with a random vector, which is fed into the generator. The output of the generator is concatenated with the shuffled conditional vector and fed into the discriminator.
 
 For generating synthetic data, the conditional vector is conditioned randomly on a column and then on a value from that column, considering the entire dataset.
+
+## synth1.csv
+Column of dataset used for training: 'amount', 'tcode', 'month', 'dow', 'year', 'dtme_cat', 'age_group', 'td'
+procedure of training: the same as explained above
+## synth2.csv
+
