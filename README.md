@@ -3,10 +3,10 @@ This repository contains the code for replicating the work presented in the pape
 
 Please note that while the original implementation in the paper uses PyTorch, this replication project utilizes Keras and TensorFlow for the implementation.
 
-# Usage Example
+## Usage Example
 insurance_ctgan.ipynb include the codes for how to train the model and generate synthetic data 
 
-# SeqCTGAN
+## SeqCTGAN
 In SeqCTGAN, significant changes were made to the way conditional vectors and real
 data are sampled. Instead of fixed batch sizes and unrelated data batches as in the
 original CTGAN, the dataset is split into batches based on unique account IDs. The
@@ -32,4 +32,15 @@ When training the generator, the conditional vector (C2) is again sampled based
 on the transaction sequence used for training the discriminator. C2 is then concate-
 nated with a randomly generated vector and fed into the generator. The generator’s
 output is concatenated with C2 and passed to the discriminator.
+
+## Results
+| Model                | Amt  | CF   | Tcode  | DoM   | Tcode 3G | Tcode, Date* |
+|----------------------|------|------|--------|-------|----------|--------------|
+| SeqCTGAN             | 968  |11542 | 0.0005 | 0.1   | 0.005    | 0.27         |
+| Original CTGAN(Pruned)|174  |11083 | 0.0002 | 0.1   | 0.007    | 0.27         |
+| Original CTGAN      | 232  |11765 | 0.0005 | 0.1   | 0.0086   | 0.27         |
+| BF(new)             | 2448 | 1836 | 0.001  | 0.003 | 0.015    | 0.01         |
+| BF(old)             | 2102 | 2738 | 0.004  | 0.011 | 0.042    | 0.251        |
+| DG                  | 1939 |57800 | 0.007  | 0.090 | 0.132    | 0.660        |
+| TG                  | 1931 | 4980 | 0.075  | 0.059 | 0.337    | 0.638        |
 
