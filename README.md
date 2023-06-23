@@ -32,6 +32,7 @@ When training the generator, the conditional vector (C2) is again sampled based
 on the transaction sequence used for training the discriminator. C2 is then concate-
 nated with a randomly generated vector and fed into the generator. The generator’s
 output is concatenated with C2 and passed to the discriminator.
+version1(v1): we use these three features for training:’transaction amount’, ’time delta’, and ’transaction code’.
 
 ## Results
 | Model                | Amt  | CF   | Tcode  | DoM   | Tcode 3G | Tcode, Date* |
