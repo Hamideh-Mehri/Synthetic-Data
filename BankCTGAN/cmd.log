@@ -1,0 +1,155 @@
+2023-10-14 15:27:59.944040: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-10-14 15:28:01.658886: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-10-14 15:28:01.659635: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcuda.so.1
+2023-10-14 15:28:01.693577: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3b:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.45GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-10-14 15:28:01.693777: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:af:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.45GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-10-14 15:28:01.693795: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-10-14 15:28:01.695281: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-10-14 15:28:01.695351: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-10-14 15:28:01.696878: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-10-14 15:28:01.697117: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-10-14 15:28:01.698574: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-10-14 15:28:01.699332: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-10-14 15:28:01.702336: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-10-14 15:28:01.703006: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2023-10-14 15:28:01.703266: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2023-10-14 15:28:01.704748: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2023-10-14 15:28:01.893129: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:3b:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.45GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-10-14 15:28:01.893386: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 1 with properties: 
+pciBusID: 0000:af:00.0 name: Quadro RTX 8000 computeCapability: 7.5
+coreClock: 1.77GHz coreCount: 72 deviceMemorySize: 47.45GiB deviceMemoryBandwidth: 625.94GiB/s
+2023-10-14 15:28:01.893419: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-10-14 15:28:01.893478: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+2023-10-14 15:28:01.893496: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublasLt.so.10
+2023-10-14 15:28:01.893511: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcufft.so.10
+2023-10-14 15:28:01.893525: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcurand.so.10
+2023-10-14 15:28:01.893539: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusolver.so.10
+2023-10-14 15:28:01.893562: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcusparse.so.10
+2023-10-14 15:28:01.893576: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudnn.so.7
+2023-10-14 15:28:01.894106: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1862] Adding visible gpu devices: 0, 1
+2023-10-14 15:28:01.894144: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcudart.so.10.1
+2023-10-14 15:28:02.650510: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2023-10-14 15:28:02.650560: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      0 1 
+2023-10-14 15:28:02.650568: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 0:   N Y 
+2023-10-14 15:28:02.650574: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1280] 1:   Y N 
+2023-10-14 15:28:02.651392: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 45387 MB memory) -> physical GPU (device: 0, name: Quadro RTX 8000, pci bus id: 0000:3b:00.0, compute capability: 7.5)
+2023-10-14 15:28:02.652010: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1406] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:1 with 45387 MB memory) -> physical GPU (device: 1, name: Quadro RTX 8000, pci bus id: 0000:af:00.0, compute capability: 7.5)
+preprocessing data....
+transforming data...
+/users/fs2/hmehri/miniconda3/envs/tddpm/lib/python3.9/site-packages/rdt/transformers/base.py:132: FutureWarning: Future versions of RDT will not support the 'model_missing_values' parameter. Please switch to using the 'missing_value_generation' parameter to select your strategy.
+  warnings.warn(
+/users/fs2/hmehri/miniconda3/envs/tddpm/lib/python3.9/site-packages/rdt/transformers/base.py:132: FutureWarning: Future versions of RDT will not support the 'model_missing_values' parameter. Please switch to using the 'missing_value_generation' parameter to select your strategy.
+  warnings.warn(
+start of training
+1509
+2023-10-14 15:32:18.471316: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library libcublas.so.10
+Epoch 1, Loss G:  0.9879, Loss D:  0.3601, cross_entropy:  0.46
+Epoch 2, Loss G:  0.5379, Loss D: -0.0191, cross_entropy:  0.18
+Epoch 3, Loss G: -0.3339, Loss D:  0.0525, cross_entropy:  0.04
+Epoch 4, Loss G: -0.1013, Loss D: -0.0669, cross_entropy:  0.02
+Epoch 5, Loss G:  0.9357, Loss D: -0.2218, cross_entropy:  0.03
+Epoch 6, Loss G:  0.8463, Loss D:  0.1337, cross_entropy:  0.03
+Epoch 7, Loss G:  0.4188, Loss D: -0.0931, cross_entropy:  0.01
+Epoch 8, Loss G: -0.7486, Loss D: -0.2848, cross_entropy:  0.01
+Epoch 9, Loss G: -0.1315, Loss D: -0.1386, cross_entropy:  0.00
+Epoch 10, Loss G:  1.1077, Loss D: -0.0673, cross_entropy:  0.00
+Epoch 11, Loss G: -0.8130, Loss D: -0.0115, cross_entropy:  0.00
+Epoch 12, Loss G:  1.0058, Loss D: -0.1688, cross_entropy:  0.00
+Epoch 13, Loss G: -0.0397, Loss D: -0.1689, cross_entropy:  0.00
+Epoch 14, Loss G:  0.0828, Loss D: -0.1849, cross_entropy:  0.00
+Epoch 15, Loss G:  0.2462, Loss D:  0.1980, cross_entropy:  0.00
+Epoch 16, Loss G:  0.7618, Loss D: -0.0980, cross_entropy:  0.00
+Epoch 17, Loss G: -0.8050, Loss D: -0.1573, cross_entropy:  0.00
+Epoch 18, Loss G: -1.0494, Loss D:  0.0541, cross_entropy:  0.00
+Epoch 19, Loss G: -1.1331, Loss D:  0.0053, cross_entropy:  0.00
+Epoch 20, Loss G:  1.0404, Loss D: -0.1149, cross_entropy:  0.00
+Epoch 21, Loss G:  0.6649, Loss D: -0.0892, cross_entropy:  0.00
+Epoch 22, Loss G:  1.2530, Loss D:  0.0487, cross_entropy:  0.00
+Epoch 23, Loss G:  0.9516, Loss D: -0.0583, cross_entropy:  0.00
+Epoch 24, Loss G: -0.0312, Loss D: -0.0139, cross_entropy:  0.00
+Epoch 25, Loss G: -1.3317, Loss D: -0.0763, cross_entropy:  0.00
+Epoch 26, Loss G:  0.4572, Loss D: -0.0209, cross_entropy:  0.00
+Epoch 27, Loss G: -0.3894, Loss D: -0.0492, cross_entropy:  0.00
+Epoch 28, Loss G: -0.8199, Loss D: -0.1267, cross_entropy:  0.00
+Epoch 29, Loss G: -0.8002, Loss D: -0.1326, cross_entropy:  0.00
+Epoch 30, Loss G:  0.7401, Loss D: -0.1656, cross_entropy:  0.00
+Epoch 31, Loss G:  0.4315, Loss D: -0.1363, cross_entropy:  0.00
+Epoch 32, Loss G:  0.6830, Loss D: -0.0828, cross_entropy:  0.00
+Epoch 33, Loss G: -1.0897, Loss D: -0.0412, cross_entropy:  0.00
+Epoch 34, Loss G:  0.1898, Loss D: -0.0217, cross_entropy:  0.00
+Epoch 35, Loss G:  0.7692, Loss D: -0.1360, cross_entropy:  0.00
+Epoch 36, Loss G:  0.5785, Loss D: -0.0027, cross_entropy:  0.00
+Epoch 37, Loss G:  1.3120, Loss D: -0.1023, cross_entropy:  0.00
+Epoch 38, Loss G: -1.4617, Loss D:  0.0964, cross_entropy:  0.00
+Epoch 39, Loss G:  1.1276, Loss D: -0.0383, cross_entropy:  0.00
+Epoch 40, Loss G: -0.6312, Loss D: -0.0804, cross_entropy:  0.00
+Epoch 41, Loss G: -0.8777, Loss D:  0.0318, cross_entropy:  0.00
+Epoch 42, Loss G:  0.4810, Loss D: -0.0951, cross_entropy:  0.00
+Epoch 43, Loss G: -1.0577, Loss D:  0.0681, cross_entropy:  0.00
+Epoch 44, Loss G:  0.1486, Loss D: -0.0812, cross_entropy:  0.00
+Epoch 45, Loss G: -1.1296, Loss D: -0.1133, cross_entropy:  0.00
+Epoch 46, Loss G: -0.1032, Loss D: -0.0138, cross_entropy:  0.00
+Epoch 47, Loss G:  0.2239, Loss D:  0.0568, cross_entropy:  0.00
+Epoch 48, Loss G: -1.4830, Loss D: -0.0786, cross_entropy:  0.00
+Epoch 49, Loss G: -1.0061, Loss D:  0.0102, cross_entropy:  0.00
+Epoch 50, Loss G:  0.1181, Loss D: -0.0997, cross_entropy:  0.00
+Epoch 51, Loss G: -1.3458, Loss D: -0.1137, cross_entropy:  0.00
+Epoch 52, Loss G:  0.1467, Loss D: -0.1304, cross_entropy:  0.00
+Epoch 53, Loss G: -1.0615, Loss D: -0.1600, cross_entropy:  0.00
+Epoch 54, Loss G:  0.3673, Loss D: -0.0160, cross_entropy:  0.00
+Epoch 55, Loss G: -0.6390, Loss D:  0.0260, cross_entropy:  0.00
+Epoch 56, Loss G:  0.3890, Loss D: -0.1230, cross_entropy:  0.00
+Epoch 57, Loss G: -0.1207, Loss D: -0.0679, cross_entropy:  0.00
+Epoch 58, Loss G: -0.1600, Loss D: -0.0444, cross_entropy:  0.00
+Epoch 59, Loss G:  0.1290, Loss D:  0.0294, cross_entropy:  0.00
+Epoch 60, Loss G: -0.2172, Loss D: -0.0280, cross_entropy:  0.00
+Epoch 61, Loss G: -1.4838, Loss D: -0.0618, cross_entropy:  0.00
+Epoch 62, Loss G: -1.4155, Loss D:  0.0011, cross_entropy:  0.00
+Epoch 63, Loss G: -0.4277, Loss D:  0.0118, cross_entropy:  0.00
+Epoch 64, Loss G:  0.3502, Loss D:  0.0321, cross_entropy:  0.00
+Epoch 65, Loss G:  0.8268, Loss D: -0.1443, cross_entropy:  0.00
+Epoch 66, Loss G: -1.0858, Loss D:  0.0128, cross_entropy:  0.00
+Epoch 67, Loss G: -1.2836, Loss D: -0.0722, cross_entropy:  0.00
+Epoch 68, Loss G: -1.4556, Loss D: -0.0676, cross_entropy:  0.00
+Epoch 69, Loss G: -0.6765, Loss D: -0.0094, cross_entropy:  0.00
+Epoch 70, Loss G:  0.4187, Loss D: -0.0517, cross_entropy:  0.00
+Epoch 71, Loss G: -1.5132, Loss D: -0.0947, cross_entropy:  0.00
+Epoch 72, Loss G: -1.0380, Loss D: -0.1159, cross_entropy:  0.00
+Epoch 73, Loss G:  0.7533, Loss D: -0.0158, cross_entropy:  0.00
+Epoch 74, Loss G: -1.3471, Loss D:  0.0220, cross_entropy:  0.00
+Epoch 75, Loss G: -0.5740, Loss D:  0.0370, cross_entropy:  0.00
+Epoch 76, Loss G:  0.2384, Loss D: -0.0500, cross_entropy:  0.00
+Epoch 77, Loss G: -1.4877, Loss D: -0.0585, cross_entropy:  0.00
+Epoch 78, Loss G: -0.9415, Loss D: -0.0132, cross_entropy:  0.00
+Epoch 79, Loss G: -0.4109, Loss D:  0.0165, cross_entropy:  0.00
+Epoch 80, Loss G: -1.3300, Loss D: -0.0175, cross_entropy:  0.00
+Epoch 81, Loss G: -1.3504, Loss D: -0.0883, cross_entropy:  0.00
+Epoch 82, Loss G: -0.4234, Loss D:  0.0458, cross_entropy:  0.00
+Epoch 83, Loss G:  0.1750, Loss D: -0.0621, cross_entropy:  0.00
+Epoch 84, Loss G: -1.6585, Loss D: -0.0205, cross_entropy:  0.00
+Epoch 85, Loss G: -0.2404, Loss D: -0.0348, cross_entropy:  0.00
+Epoch 86, Loss G: -1.3443, Loss D:  0.0323, cross_entropy:  0.00
+Epoch 87, Loss G: -0.7219, Loss D: -0.0220, cross_entropy:  0.00
+Epoch 88, Loss G: -0.0392, Loss D: -0.0251, cross_entropy:  0.00
+Epoch 89, Loss G: -0.7166, Loss D: -0.0628, cross_entropy:  0.00
+Epoch 90, Loss G: -1.5600, Loss D: -0.0078, cross_entropy:  0.00
+Epoch 91, Loss G: -0.3720, Loss D:  0.0746, cross_entropy:  0.00
+Epoch 92, Loss G: -0.7434, Loss D: -0.0667, cross_entropy:  0.00
+Epoch 93, Loss G: -1.4455, Loss D:  0.0230, cross_entropy:  0.00
+Epoch 94, Loss G: -0.3270, Loss D:  0.0063, cross_entropy:  0.00
+Epoch 95, Loss G: -0.8407, Loss D:  0.0286, cross_entropy:  0.00
+Epoch 96, Loss G: -1.4068, Loss D: -0.0367, cross_entropy:  0.00
+Epoch 97, Loss G: -0.1657, Loss D:  0.0320, cross_entropy:  0.00
+Epoch 98, Loss G: -1.5849, Loss D:  0.0618, cross_entropy:  0.00
+Epoch 99, Loss G: -0.3834, Loss D:  0.0283, cross_entropy:  0.00
+Epoch 100, Loss G: -1.2841, Loss D:  0.0026, cross_entropy:  0.00
+2023-10-14 18:45:35.866563: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+synthesize data
+finish
